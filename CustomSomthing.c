@@ -116,6 +116,7 @@ void checkSceneCode(SceneInfo *info, SCENE code)
 
 void drawBax(BOXSIZE w, BOXSIZE h)
 {
+	system("cls");
 	gotoxy(0, 0);
 	for (int i = 0; i < h; i++)
 	{
